@@ -1,5 +1,5 @@
 
-<div class="container">
+<div class="container ">
     <div class="row">
       <div
         class="col-md-3 contenedor-ico d-flex align-items-end justify-content-center"
@@ -64,7 +64,7 @@
 <!--form-->
 
   
-<div class="form-estilo row form-candsub container-properties">
+<div class="form-estilo row form-candsub container-properties size">
    
   <div class="row container-properties">
     <div class="col-md-6 ">
@@ -90,10 +90,11 @@
           <label class="form-control-label">
             Nombre(s) <span class="tx-danger">*</span></label>
           <input
-            class="form-control"
+            class="form-control login__input "
             type="text"
             id="candidato_nombre-rp"
             onkeypress="return restriccionNombre(event)"
+            placeholder="Ingrese su nombre"
           />
         </div>
       </div>
@@ -103,10 +104,11 @@
         <div class="form-group">
           <label class="form-control-label">Apellido Paterno <span class="tx-danger">*</span></label>
           <input
-            class="form-control"
+            class="form-control login__input "
             type="text"
             id="candidato_ap_paterno-rp"
             onkeypress="return restriccionNombre(event)"
+            placeholder="Ingrese su apellido paterno"
           />
         </div>
       </div>
@@ -114,14 +116,15 @@
 
       <div class="col-md-4">
         <div class="form-group">
-          <label class="form-control-label"
-            >Apellido Materno <span class="tx-danger">*</span></label
+          <label class="form-control-label "
+            >Apellido Materno <span class="tx-danger ">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             type="text"
             id="candidato_ap_materno-rp"
             onkeypress="return restriccionNombre(event)"
+            placeholder="Ingreese su apellido materno"
           />
         </div>
       </div>
@@ -135,11 +138,12 @@
           <label class="form-control-label" >Tipo de Candidatura <span class="tx-danger">*</span></label>
           <div class="">
               <input
-              class="form-control"
+              class="form-control login__input "
               type="text"
               id="tipo_candidatura"
               onkeypress="return restriccionCandidatura(event)"
-              disabled/>
+              disabled
+              placeholder="tipo de candidatura"/>
           </div>
         </div>
       </div>
@@ -150,11 +154,12 @@
           <label class="form-control-label">Partido Político <span class="tx-danger">*</span></label>
           <div id="sub-pp-rp">
               <input
-              class="form-control"
+              class="form-control login__input "
               type="text"
               id="partido_politico"
               onkeypress="return restriccionPartido(event)"
-              disabled/>
+              disabled
+              placeholder="Partido politico"/>
           </div>
         </div>
       </div>
@@ -163,7 +168,7 @@
         <div class="form-group">
           <label class="form-control-label">Distrito <span class="tx-danger">*</span></label >
           <!--<div id="candidato_distrito-rp"></div>-->
-          <select class="form-control" id="candidato_distrito-rp">
+          <select class="form-control login__input " id="candidato_distrito-rp">
               <option value="">Selecciona una opción</option>
               <option value="CALPULALPAN">CALPULALPAN</option>
               <option value="CALPULALPAN">CALPULALPAN</option>
@@ -208,9 +213,9 @@
   <div class="form-estilo row form-candsub container-properties">    
       <div class="col-md-4">
         <div class="form-group">
-          <label class="form-control-label">Fecha de nacimiento <span class="tx-danger">*</span></label>
+          <label class="form-control-label ">Fecha de nacimiento <span class="tx-danger">*</span></label>
           <input
-            class="form-control"
+            class="form-control login__input "
             type="date"
             id="candidato_fec_nacimiento-rp"
             max="2000-02-27"
@@ -220,8 +225,8 @@
   
       <div class="col-md-4">
         <div class="form-group">
-          <label class="form-control-label">Género <span class="tx-danger">*</span></label >
-          <select class="form-control" id="candidato_genero-rp">
+          <label class="form-control-label ">Género <span class="tx-danger">*</span></label >
+          <select class="form-control login__input " id="candidato_genero-rp">
             <option value="">Selecciona una opción</option>
             <option value="MASCULINO">Masculino</option>
             <option value="FEMENINO">Femenino</option>
@@ -230,16 +235,17 @@
       </div>
       <div class="col-md-4">
         <div class="form-group">
-          <label class="form-control-label"
+          <label class="form-control-label "
             >Clave de Elector <span class="tx-danger">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="18"
             minlength="18"
             type="text"
             id="candidato_clave_elector-rp"
             onkeypress="return restriccion(event)"
+            placeholder="clave elector"
           />
         </div>
       </div>
@@ -254,13 +260,14 @@
             >CURP <span class="tx-danger">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="18"
             minlength="18"
             type="text"
             placeholder="MECC020123HDFNRR04"
             id="candidato_curp-rp"
             onkeypress="return restriccion(event)"
+            placeholder="CURP"
           />
         </div>
       </div>
@@ -271,13 +278,14 @@
             >NÚMERO DE EMISIÓN <span class="tx-danger">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="4"
             minlength="1"
             type="text"
             placeholder="Número de emisión de la credencial"
             id="candidato_num_emision-rp"
             onkeypress="return soloNumeros(event)"
+            placeholder="Numero de emision"
           />
         </div>
       </div>
@@ -287,7 +295,7 @@
             >OCR<span class="tx-danger">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="13"
             minlength="1"
             type="text"
@@ -307,11 +315,11 @@
             >CIC<span class="tx-danger"></span
           ></label>
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="15"
             minlength="15"
             type="text"
-            placeholder="Código de identificación de Credencial para Votar"
+            placeholder="Código de identificación"
             id="candidato_cic-rp"
           />
         </div>
@@ -322,7 +330,7 @@
             >SECCIÓN<span class="tx-danger">*</span></label
           >
           <input
-            class="form-control"
+            class="form-control login__input "
             maxlength="4"
             minlength="1"
             type="text"
@@ -340,13 +348,14 @@
           >
           <div class="input-group-prepend">
             <input
-              class="form-control"
+              class="form-control login__input "
               type="text"
               id="candidato_tiempo_residencia-rp"
               aria-describedby="inputGroupPrepend"
               maxlength="2"
               minlength="1"
               onkeypress="return restriccion(event)"
+              placeholder="tiempo de residencia"
             />
             
           </div>
@@ -360,18 +369,19 @@
         <div class="form-group">
           <label class="form-control-label">Sobrenombre</label>
           <input
-            class="form-control"
+            class="form-control login__input "
             type="text"
             name=""
             value=""
             id="candidato_sobrenombre-rp"
             onkeypress="return restriccionNombre(event)"
+            placeholder="Subnombre"
           />
         </div>
       </div>
       <div class="col-md-4 email_rp">
         <label class="form-control-label">Correo Electrónico</label>
-        <input class="form-control" type="email" id="emailrp" name=""  />
+        <input class="form-control login__input " type="email" id="emailrp" name=""  placeholder="email" />
       </div>
     </div>
   </div>

@@ -4,13 +4,13 @@
     <div class="row">
       <div
         class="col-md-3 contenedor-ico d-flex align-items-end justify-content-center"
-        style="height: 200px"
+        style="height: 140px"
       >
         <div class="text-center">
           <i class="bi bi-person-fill"></i>
         </div>
       </div>
-      <div class="col-md-6 d-flex flex-column justify-content-center">
+      <div class="col-md-5 d-flex flex-column justify-content-center">
         <p class="font-weight-bold h1">CANDIDATO A SUSTITUIR  </p>
         <p class="h4">
           coloque la clave de elector del propietario de la candidatura a sustituir.
@@ -23,7 +23,7 @@
 <div class="container">
     <div class="row">
       <div class="col text-end">
-        <p class="size justify-content-center" style="height: 200px">
+        <p class="size justify-content-center" style="height: 80px">
           Clave Elector
         </p>
       </div>
@@ -43,6 +43,7 @@
   </div>
 
 <!--table data-->
+<div class="container row">
 <div class="table-responsive">
     <table class="table">
       <thead>
@@ -74,15 +75,14 @@
       </tbody>
     </table>
   </div>
-
-<br>
+</div>
 
 
 <!--title new Candidacy-->
   <div class="titulo-secundario title-candsub d-flex align-items-center">
     <i class="bi bi-person-plus-fill contenedor-ico-2"></i>
     <div class="ml-3">
-      <h4 class="mb-0 display-4 font-weight-bold">
+      <h4 class="mb-0 display-5 font-weight-bold">
         Candidatura  Nueva
       </h4>
       <p class="mb-0 display-6">
@@ -101,6 +101,7 @@
         <div class="form-group ">
           <label for="fechaSustitucion">Fecha de Sustitución</label>
           <input type="date" class="form-control login__input" id="fechaSustitucion">
+
         </div>
       </div>
 
@@ -116,25 +117,15 @@
           </select>
         </div>
       </div>
-
-      <div class="col-md-4">
-        <div class="form-group">
-          <label for="sobrenombre">Sobrenombre</label>
-          <input type="text" class="form-control login__input" id="sobrenombre" placeholder="Ingrese el sobrenombre">
-        </div>
+    <div class="col-md-4">
+      <div class="form-group">
+        <label for="nombres">Nombre(s)</label>
+        <input type="text" class="form-control login__input" id="nombres" placeholder="Ingrese su nombre">
       </div>
-    
-
-
+    </div>
     </div>
     
     <div class="row container-properties">
-      <div class="col-md-4">
-        <div class="form-group">
-          <label for="nombres">Nombre(s)</label>
-          <input type="text" class="form-control login__input" id="nombres" placeholder="Ingrese su nombre">
-        </div>
-      </div>
       <div class="col-md-4">
         <div class="form-group">
           <label for="apellidoPaterno">Apellido Paterno</label>
@@ -145,6 +136,12 @@
         <div class="form-group">
           <label for="apellidoMaterno">Apellido Materno</label>
           <input type="text" class="form-control login__input" id="apellidoMaterno" placeholder="Ingrese el apellido materno">
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="form-group">
+          <label for="sobrenombre">Sobrenombre</label>
+          <input type="text" class="form-control login__input" id="sobrenombre" placeholder="Ingrese el sobrenombre">
         </div>
       </div>
     </div>

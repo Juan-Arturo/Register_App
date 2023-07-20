@@ -4,8 +4,8 @@
 }
 
 .contenedor-ico-2{
-    font-size: 100px;
-    padding: 10px;
+    font-size: 60px;
+    padding: 5px;
 }
 
 
@@ -18,18 +18,18 @@
 }
 
 .space-button{
-    margin: 20px 5px;
+    margin: 5px 5px;
 }
 
 .container-properties{
-    margin: 30px 0px;
+    margin: 5px 0px;
 }
 
 
 
 
   .login-box {
-    margin-top: 75px;
+    margin-top: 55px;
     height: auto;
     background: rgb(36, 0, 70, 0.8);
     text-align: center;
@@ -43,7 +43,7 @@
 
 /*input*/
 
-.login__input {
+/* .login__input {
 	color: white;
 	font-size: 1.15rem;
 	width: 100%;
@@ -56,7 +56,7 @@
 }
 
 
-/*select*/
+/*select
 .login__select {
     color: white;
     font-size: 1.15rem;
@@ -67,5 +67,5 @@
     border-radius: 1.5rem;
     background-color: rgb(60, 9, 108, 0.8);
     letter-spacing: 1px;
-  }
+  } */
   

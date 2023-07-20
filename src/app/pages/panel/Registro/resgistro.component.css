@@ -4,25 +4,42 @@
 }
 
 .space-button{
-    margin: 9px 6px;
+    margin: 9px 15px;
 }
 
 
-.containerI {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    float: left;
-    width: 55%;
-    padding: 3px;
-    padding-top: 15px;
-    border-color: black;
-    margin: 10px 3px 30px 5px;
-  } 
-  .containerD {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    float: left;
-    width: 40%;
-    padding: 2px;
-    margin: 10px 3px 30px 5px;
-  }
+.containerI 
+{
+    padding-top: 25px;
+    border-color: blue;
+    } 
+ .containerD 
+ {
+    padding-top: 20px;
+      }
+
+      /* .login__input {
+        color: white;
+        font-size: 1.15rem;
+        width: 100%;
+        padding: .5rem 1rem;
+        border: 2px solid transparent;
+        outline: none;
+        border-radius: 1.5rem;
+        background-color: rgb(60, 9, 108, 0.8);
+        letter-spacing: 1px;
+      }
+      
+      
+      
+      .login__select {
+          color: white;
+          font-size: 1.15rem;
+          width: 100%;
+          padding: .5rem 1rem;
+          border: 2px solid transparent;
+          outline: none;
+          border-radius: 1.5rem;
+          background-color: rgb(60, 9, 108, 0.8);
+          letter-spacing: 1px;
+        }       */

@@ -1,0 +1,41 @@
+
+.container-ico {
+	font-size: 120px;
+	margin: 40 px;
+  }
+
+  .size-title{
+	font-size: 35px;
+	margin: 0px 10px;
+  }
+  
+  
+  .size-subtitle{
+	font-size: 20px;
+	margin: 0px 10px;
+  }
+
+.color-button{
+    background-color: blueviolet
+}
+
+.space-button{
+    margin: 20px 0px;
+}
+
+.container-properties{
+    margin: 20px 0px;
+}
+
+
+.login__input {
+	color: white;
+	font-size: 1.15rem;
+	width: 100%;
+	padding: .5rem 1rem;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 1.5rem;
+	background-color: rgb(60, 9, 108, 0.8);
+	letter-spacing: 1px;
+}

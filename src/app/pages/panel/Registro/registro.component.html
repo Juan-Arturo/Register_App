@@ -62,10 +62,8 @@
 <div class="containerB" >
     <div class="row">
     <div class="col-md-5">
-      <button type="submit" class="btn btn-success space-button">Propietario</button>
-        <button type="submit" class="btn btn-warning space-button">Suplente</button>
-         <button type="submit" class="btn btn-secondary space-button">Cancelar</button>
-            <button type="submit" class="btn btn-info space-button">Imprimir</button>
+      <button type="submit" class="btn btn-primary space-button">Propietario</button>
+        <button type="submit" class="btn btn-secondary space-button">Suplente</button>
       </div>
     </div>
 
@@ -192,9 +190,7 @@
             <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CEDULA DE IDENTIFICACION FISCAL</label>
           </div>
     </div>
-  
-  
-    
+      
   <!-- modal.component.html -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -220,6 +216,7 @@
 
 
 <!-- app.component.html -->
+<button type="button" class="btn btn-secondary" (click)="openModal()">Cancelar</button>
 <button type="button" class="btn btn-primary" (click)="openModal()">Abrir Modal</button>
 
 <ng-template #content let-modal>
@@ -245,4 +242,5 @@
     <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">Cerrar</button>
     <button type="button" class="btn btn-primary">Guardar</button>
   </div>
+  
 </ng-template>

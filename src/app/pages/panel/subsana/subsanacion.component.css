@@ -1,30 +1,27 @@
+.contenedor-ico {
+    font-size: 150px;
+    color: blueviolet;
+}
 
-.container-ico {
-	font-size: 120px;
-	margin: 40 px;
-  }
+.contenedor-ico-2{
+    font-size: 100px;
+}
 
-  .size-title{
-	font-size: 35px;
-	margin: 0px 10px;
-  }
-  
-  
-  .size-subtitle{
-	font-size: 20px;
-	margin: 0px 10px;
-  }
+
+.size{
+    font-size: 20px;
+}
 
 .color-button{
     background-color: blueviolet
 }
 
 .space-button{
-    margin: 20px 0px;
+    margin: 20px 10px;
 }
 
 .container-properties{
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 

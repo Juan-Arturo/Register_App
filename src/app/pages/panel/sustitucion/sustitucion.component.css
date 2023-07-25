@@ -41,31 +41,46 @@
     color: aliceblue;
 }
 
-/*input*/
-
-/* .login__input {
-	color: white;
-	font-size: 1.15rem;
-	width: 100%;
-	padding: .5rem 1rem;
-	border: 2px solid transparent;
-	outline: none;
-	border-radius: 1.5rem;
-	background-color: rgb(60, 9, 108, 0.8);
-	letter-spacing: 1px;
-}
 
 
-/*select
-.login__select {
-    color: white;
-    font-size: 1.15rem;
-    width: 100%;
-    padding: .5rem 1rem;
-    border: 2px solid transparent;
-    outline: none;
-    border-radius: 1.5rem;
-    background-color: rgb(60, 9, 108, 0.8);
-    letter-spacing: 1px;
-  } */
+
+/**/
+
+
+.btn-primary{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+    margin: 8px 25px;
+   }
+
+.btn-primary:hover{
+    background-color: #7B2CBF;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+   
+
+.btn-primary:active{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+
+.display-1{
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0px 10px;
+  }
+
+  .display-2{
+	font-size: 20px;
+	margin: 0px 10px;
+  }
+
   
+
+  .container-ico {
+    font-size: 90px;
+    margin: 40 px;
+  }

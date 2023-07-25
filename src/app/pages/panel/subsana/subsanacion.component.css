@@ -1,50 +1,38 @@
-.containerB {
-    position: relative;
-    margin-top: 10px;
+.contenedor-ico {
+    font-size: 150px;
+    color: blueviolet;
+}
+
+.contenedor-ico-2{
+    font-size: 100px;
 }
 
 
-.size-title{
-  font-size: 35px;
-  margin: 0px 10px;
+.size{
+    font-size: 20px;
 }
 
-
-.size-subtitle{
-  font-size: 25px;
-  margin: 0px 10px;
-}
-
-
-.btn-primary{
- background-color: blueviolet;
- color: blanchedalmond;
- margin: 8px 25px;
-}
-
-.btn.secondary{
-  background-color: gray;
-  color: blanchedalmond;
-  margin: 0px 15px;
+.color-button{
+    background-color: blueviolet
 }
 
 .space-button{
-    margin: 9px 15px;
+    margin: 20px 10px;
+}
+
+.container-properties{
+    margin: 10px 0px;
 }
 
 
-.container-ico {
-  font-size: 120px;
-  margin: 40 px;
+.login__input {
+	color: white;
+	font-size: 1.15rem;
+	width: 100%;
+	padding: .5rem 1rem;
+	border: 2px solid transparent;
+	outline: none;
+	border-radius: 1.5rem;
+	background-color: rgb(60, 9, 108, 0.8);
+	letter-spacing: 1px;
 }
-
-
-.containerI 
-{
-    padding-top: 25px;
-    border-color: blue;
-    } 
- .containerD 
- {
-    padding-top: 20px;
-      }

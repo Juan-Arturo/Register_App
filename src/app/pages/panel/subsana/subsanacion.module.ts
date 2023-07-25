@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { SubsanacionRoutingModule } from './subsanacion-routing.module';
 import {SubsanacionComponent } from './subsanacion.component';
@@ -11,7 +12,10 @@ import {SubsanacionComponent } from './subsanacion.component';
   ],
   imports: [
     CommonModule,
-    SubsanacionRoutingModule
-  ]
+    SubsanacionRoutingModule,
+    NgbModule
+  ],
+  providers: [],
+  bootstrap: [SubsanacionComponent],
 })
 export class SubsanacionModule { }

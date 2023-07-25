@@ -12,7 +12,7 @@
         completar/modificar la informacion.
       </p>
     </div>
-  </div>>
+  </div>
 
   <div class="container">
     <div class="row">
@@ -36,7 +36,22 @@
     </div>
   </div>
   
-  <!--bi bi-pencil-square contenedor-ico>-->
+  <!--insercion de modar--> 
+  
+  <div>
+    <button type="button" class="btn btn-primary " (click)="openModal()">Modificacion de Registro</button>
+
+      <ng-template #content let-modal>
+
+
+        <div class="modal-header">
+            <h4 class="modal-title" id="modalContentLabel">Título de la ventana modal</h4>
+              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss()">
+              <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <!--bi bi-pencil-square contenedor-ico>-->
   <div class="inforp-subsanacion ">
     <div class="titulo-secundario title-candsub d-flex align-items-center">
       <i class="bi bi-pencil-square container-ico"></i>
@@ -267,7 +282,7 @@
       <div class="col-md-4">
         <div class="form-group">
           <label class="form-control-label"
-            >NÚMERO DE EMISIÓN <span class="tx-danger">*</span></label
+            >Número de emisión<span class="tx-danger">*</span></label
           >
           <input
             class="form-control  "
@@ -319,7 +334,7 @@
       <div class="col-md-4">
         <div class="form-group">
           <label class="form-control-label"
-            >SECCIÓN<span class="tx-danger">*</span></label
+            >Sección<span class="tx-danger">*</span></label
           >
           <input
             class="form-control  "
@@ -379,20 +394,16 @@
   </div>
 
 
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">Cancelar</button>
+          <button type="button" class="btn btn-primary">Continuar</button>
+        </div>
+        
+      </ng-template>
+  </div>
 
-    <div class="justify-content-center btn-formulario">
-      <div>
-        <button type="button" name="button" class="btn btn-secondary space-button" id="subsanacion-cancelar">
-          Cancelar
-        </button>
-        <button
-          type="button"
-          name="button"
-          class="btn btn-primary space-button  color-button">
-          Continuar
-        </button>
-      </div>
-    </div>
+  
   
   
 </div>

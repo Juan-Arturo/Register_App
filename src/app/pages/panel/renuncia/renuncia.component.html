@@ -1,230 +1,100 @@
 
-
-
-
-<div class="titulo-secundario title-candsub d-flex flex-column flex-md-row align-items-md-center container-ico">
-  <i class="bi bi-person-fill-gear"></i>
-  <div class="ml-md-3 mt-3 mt-md-0">
-    <h4 class="mb-0 size-title font-weight-bold">
-      Añadir Nueva Candidatura
-    </h4>
-    <p class="mb-0 size-subtitle">
-      Agregue la información solicitada para añadir una candidatura
-    </p>
+<div class="container">
+    <div class="row">
+      <div class="col-md-3 contenedor-ico  d-flex align-items-end justify-content-center" style="height: 200px;" >
+        <div class="text-center">
+            <i class="bi bi-person-fill-gear"></i> 
+        </div>
+     </div>
+      <div class="col-md-6 d-flex flex-column justify-content-center">
+       
+          <p class="font-weight-bold h1 "> RENUNCIA</p>
+          <p class="h4"> coloque la clave de elector  del propietario que va a renunciar a la candidatura.</p>
+       
+    </div>
+    </div>
   </div>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col text-end">
+            <p class="size justify-content-center" style="height: 200px;">  Clave Electorr</p>
+          </div>
+          
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Clave Elector" aria-label="First name">
+        </div>
+        <div class="col">
+         <button type="button" class="btn btn-success color-button">Buscar</button>
+      </div>
+    </div>
 </div>
+<form class="row g-3">
+    <div class="col-md-2">
+      <label for="inputEmail4" class="form-label">Nombre</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Florentino">
+    </div>
+    <div class="col-md-2">
+      <label for="inputPassword4" class="form-label">Apellido Paterno</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Flores">
+    </div>
+    <div class="col-md-2">
+        <label for="inputPassword4" class="form-label">Apellido Materno</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Flores">
+      </div>
+      <div class="col-md-2">
+        <label for="inputPassword4" class="form-label">Tipo de candidatura</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="Propietario">
+      </div>
+      <div class="col-md-4">
+        <label for="inputPassword4" class="form-label">CURP</label>
+        <input type="password" class="form-control" id="inputPassword4" placeholder="1234567890987654321">
+      </div>
+    <div class="col-md-2">
+      <label for="inputAddress" class="form-label">Tipo de eleccion</label>
+      <input type="text" class="form-control" id="inputAddress" placeholder="Mayoria relativa">
+    </div>
+    <div class="col-md-4">
+        <label for="inputAddress" class="form-label">Distrito</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="09 - CHIAUTEMPAN">
+      </div>
+      <div class="col-md-4">
+        <label for="inputAddress" class="form-label">Partido politico</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Por Tlaxcala al Frente">
+      </div>
+      <div class="col-md-2">
+        <label for="inputAddress" class="form-label">Género</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="FEMENINO">
+      </div>
+
+
+      <div class="col-md-3">
+        <label for="inputAddress" class="form-label">Fecha de Renuncia</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="24/04/2018">
+      </div>
+    <div class="col-md-3">
+      <label for="inputState" class="form-label">Motivo de Renuncia</label>
+      <select id="inputState" class="form-select">
+        <option selected>Selecciona una opción</option>
+        <option> INHALACION </option>
+        <option> INCAPACIDAD </option>
+        <option> RENUNCIA </option>
+        <option> FALLECIMIENTO </option>
+        </select>
+    </div>
+
+    <div class="justify-content-center btn-formulario">
+      <div>
+            <button
+    type="button" name="button" class="btn btn-secondary space-button" id="subsanacion-cancelar">
+    Cancelar
+  </button>
   
-
-<!-- app.component.html -->
-<!--<button type="button" class="btn btn-secondary" (click)="openModal()">Cancelar</button>-->
-
-  <div >
-    <button type="button" class="btn btn-primary " (click)="openModal()">Iniciar Registro</button>
-
-      <ng-template #content let-modal>
-
-
-        <div class="modal-header">
-            <h4 class="modal-title" id="modalContentLabel">Título de la ventana modal</h4>
-              <button type="button" class="close" aria-label="Close" (click)="modal.dismiss()">
-              <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-
-
-        <div class="modal-body">
-
-            <form class="row g-3">
-              <div class="col-md-5">
-                  <label for="inputState" class="form-label">TIPO DE ELECCION</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Selecciona una opción</option>
-                    <option> MAYORIA RELATIVA </option>
-                    <option> REPRESENTACION PROPORCIONAL </option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                  <label for="inputState" class="form-label">DISTRITO</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Selecciona una opción</option>
-                    <option> 01 - SAN ANTONIO CALPULALPAN </option>
-                    <option> 02 - TLAXCO DE MORELOS </option>
-                    <option> 03 - SAN COSME XALOSTOC </option>
-                    <option> 04 - APIZACO </option>
-                    <option> 05 - SAN DANIEL YAUHQUEMECAN </option>
-                    <option> 06 - IXTACUXTLA DE MARIANO MATAMOROS </option>
-                    <option> 07 - TLAXCALA DE XICOHTENCALT </option>
-                    <option> 08 - SAN BERNARDINO CONTLA </option>
-                    <option> 09 - SANTA ANA CHIAUTEMPAN </option>
-                    <option> 10 - HUAMANTLA - ZITLALTEPEC - HUAMANTLA - IXTENCO </option>
-                    <option> 11 - HUAMANTLA - ALTZAYANCA - EL CARMEN TEQUEXQUITLA - CUAPIAXTLA </option>
-                    <option> 12 - SAN LUIS TEOLOCHOLCO </option>
-                    <option> 13 - ZACATELCO </option>
-                    <option> 14 - SANTA MARIA NATIVITAS </option>
-                    <option> 15 - VICENTE GUERRERO </option>
-                    </select>
-                </div>
-                <div class="col-md-5">
-                  <label for="inputState" class="form-label">PARTIDO POLITICO / COALICION / INDEPENDIENTE</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>Selecciona una opción</option>
-                    <option> PARTIDOS POLITICOS </option>
-                    <option> MORENA </option>
-                    <option> PARTIDO DEL TRABAJO </option>
-                    <option> PARTIDO DE ENCUENTRO SOCIAL </option>
-                    <option> COALICIONES </option>
-                    </select>
-                </div>
-              
-            </form>
-
-
-            <div class="containerB" >
-                <div class="row">
-                <div class="col-md-5">
-                  <button type="submit" class="btn btn-primary space-button">Propietario</button>
-                    <button type="submit" class="btn btn-secondary space-button">Suplente</button>
-                  </div>
-                </div>
-
-            
-
-            </div>
-
-            <div class="containerI row"  >
-                
-                    <div class="col-md-4">
-                        <label for="formGroupExampleInput" class="form-label">NOMBRES</label>
-                        <input type="text" class="form-control login__input" id="formGroupExampleInput" placeholder="-------------">
-                    </div>
-
-                    <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">APELLIDO PATERNO</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-
-                    <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">APELLIDO MATERNO</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">FECHA DE NACIMIENTO</label>
-                        <input type="date" class="form-control" id="formGroupExampleInput2" >
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">GENERO</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">APELLIDO PATERNO</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="inputState" class="form-label">GENERO</label>
-                        <select id="inputState" class="form-select login__select">
-                          <option selected>Selecciona una opción</option>
-                          <option> PARTIDOS POLITICOS </option>
-                          <option> MORENA </option>
-                          <option> PARTIDO DEL TRABAJO </option>
-                          <option> PARTIDO DE ENCUENTRO SOCIAL </option>
-                          <option> COALICIONES </option>
-                          </select>
-                      </div>
-                      <div class="col-md-4">
-                        <label for="inputState" class="form-label">LUGAR DE NACIMIENTO</label>
-                        <select id="inputState" class="form-select login__select">
-                          <option selected>Selecciona una opción</option>
-                          <option> PARTIDOS POLITICOS </option>
-                          </select>
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">CLAVE DE LECTOR</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">CURP</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">TIEMPO DE RESIDENCIA</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-                      <div class="col-md-4">
-                        <label for="formGroupExampleInput2" class="form-label">SOBRENOMBRE</label>
-                        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="-------------">
-                      </div>
-            </div>
-
-        
-
-            <div class="card space">
-         
-                <div class="card-body">           
-                    <div class="containerD">
-                            
-                              <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
-                                  <label class="form-check-label" for="flexSwitchCheckDefault">DOCUMENTO EMITIDO POR EL SNR DEL INE</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" >
-                                  <label class="form-check-label" for="flexSwitchCheckChecked">SOLICITUD DE REGISTRO</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckDisabled" >
-                                  <label class="form-check-label" for="flexSwitchCheckDisabled">CREDENCIAL PARA VOTAR</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">COPIA CERTIFICADA DEL ACTA DE NACIMIENTO (EXTRACTO)</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">COPIA CERTIFICADA DEL ACTA DE NACIMIENTO DEL PADRE O LA MADRE </label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CONSTANCIA DE RESIDENCIA</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CONSTANCIA DE ACEPTACION DE LA POSTULACION</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CONSTANCIA DE SEPARACION DEL CARGO O LA FUNCION PUBLICA</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">ESCRITO BAJO PROTESTA DE DECIR VERDAD QUE NO SE ENCUENTA INHABILITADO PARA OCUPAR UN CARGO PUBLICO Y QUE NO SE CUENTA CON ANTECEDENTES PENALES</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CONSTANCIA DE ANTECEDENTES NO PENALES</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">MANIFESTACION DE PARTIDO POLITICO</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">INFORME DE CAPACIDAD ECONOMICA</label>
-                                </div>
-                                <div class="form-check form-switch">
-                                  <input class="form-check-input" type="checkbox" id="flexSwitchCheckCheckedDisabled">
-                                  <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">CEDULA DE IDENTIFICACION FISCAL</label>
-                                </div>
-                  </div>
-              </div>
-            </div>          
-
-        </div>
-
-
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" (click)="modal.dismiss()">Cerrar</button>
-          <button type="button" class="btn btn-primary">Guardar</button>
-        </div>
-        
-      </ng-template>
-  </div>
+    <button type="submit" 
+    class="btn btn-primary space-button color-button"
+    >Continuar</button>
+      </div>
+    </div>
+  </form>

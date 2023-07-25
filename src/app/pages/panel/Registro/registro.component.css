@@ -1,3 +1,4 @@
+
 .containerB {
     position: relative;
     margin-top: 10px;
@@ -29,11 +30,25 @@
 
 
 
-.btn-primary{
- background-color: blueviolet;
- color: blanchedalmond;
- margin: 8px 25px;
-}
+  .btn-primary{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+    margin: 8px 25px;
+   }
+
+.btn-primary:hover{
+    background-color: #7B2CBF;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+   
+
+.btn-primary:active{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}  
 
 .btn.secondary{
   background-color: gray;
@@ -51,7 +66,7 @@
 
 
 .container-ico {
-  font-size: 120px;
+  font-size: 90px;
   margin: 40 px;
 }
 
@@ -66,5 +81,8 @@
 }
 
      
+
+     
+
 
      

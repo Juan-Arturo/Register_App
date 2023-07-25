@@ -32,6 +32,10 @@
     margin: 9px 15px;
 }
 
+.space{
+  margin: 12px 0px;
+}
+
 
 .container-ico {
   font-size: 120px;
@@ -39,38 +43,13 @@
 }
 
 
-.containerI 
-{
+.containerI {
     padding-top: 25px;
     border-color: blue;
-    } 
- .containerD 
- {
+} 
+ .containerD {
     padding-top: 20px;
-      }
+    margin:  20px;
+}
 
-      /* .login__input {
-        color: white;
-        font-size: 1.15rem;
-        width: 100%;
-        padding: .5rem 1rem;
-        border: 2px solid transparent;
-        outline: none;
-        border-radius: 1.5rem;
-        background-color: rgb(60, 9, 108, 0.8);
-        letter-spacing: 1px;
-      }
-      
-      
-      
-      .login__select {
-          color: white;
-          font-size: 1.15rem;
-          width: 100%;
-          padding: .5rem 1rem;
-          border: 2px solid transparent;
-          outline: none;
-          border-radius: 1.5rem;
-          background-color: rgb(60, 9, 108, 0.8);
-          letter-spacing: 1px;
-        }       */
+     

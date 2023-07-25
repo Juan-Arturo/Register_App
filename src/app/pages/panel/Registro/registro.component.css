@@ -15,6 +15,19 @@
   margin: 0px 10px;
 }
 
+.display-1{
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0px 10px;
+  }
+
+  .display-2{
+	font-size: 20px;
+	margin: 0px 10px;
+  }
+
+
+
 
 .btn-primary{
  background-color: blueviolet;
@@ -51,5 +64,7 @@
     padding-top: 20px;
     margin:  20px;
 }
+
+     
 
      

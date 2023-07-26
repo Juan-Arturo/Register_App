@@ -22,7 +22,7 @@
 }
 
 .container-properties{
-    margin: 5px 0px;
+    padding: 11px 12px;
 }
 
 
@@ -76,6 +76,13 @@
   .display-2{
 	font-size: 20px;
 	margin: 0px 10px;
+  }
+
+  
+
+  .container-ico {
+    font-size: 90px;
+    margin: 40 px;
   }
 
   

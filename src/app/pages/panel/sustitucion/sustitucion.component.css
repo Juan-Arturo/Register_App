@@ -1,86 +1,16 @@
-.contenedor-ico {
-    font-size: 150px;
-    color: blueviolet;
+/* You can add global styles to this file, and also import other style files */
+@import url('https://rsms.me/inter/inter.css');
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:root {
+    --tblr-font-sans-serif: 'Inter Var', -apple-system, BlinkMacSystemFont, San Francisco, Segoe UI, Roboto, Helvetica Neue, sans-serif;
 }
 
-.contenedor-ico-2{
-    font-size: 60px;
-    padding: 5px;
+body {
+    font-feature-settings: "cv03", "cv04", "cv11";
 }
 
-
-.size{
+.ti {
     font-size: 20px;
+    /* Tamaño personalizado */
 }
-
-.color-button{
-    background-color: blueviolet
-}
-
-.space-button{
-    margin: 5px 5px;
-}
-
-.container-properties{
-    margin: 5px 0px;
-}
-
-
-
-
-  .login-box {
-    margin-top: 55px;
-    height: auto;
-    background: rgb(36, 0, 70, 0.8);
-    text-align: center;
-    box-shadow: 0 3px 6px rgb(158, 79, 222, 0.16), 0 3px 6px rgb(224, 170, 255, 0.23);
-    
-}
-
-.text-color{
-    color: aliceblue;
-}
-
-
-
-
-/**/
-
-
-.btn-primary{
-    background-color: #9D4EDD;
-    border-color: #9D4EDD;
-    color: blanchedalmond;
-    margin: 8px 25px;
-   }
-
-.btn-primary:hover{
-    background-color: #7B2CBF;
-    border-color: #9D4EDD;
-    color: blanchedalmond;
-}   
-   
-
-.btn-primary:active{
-    background-color: #9D4EDD;
-    border-color: #9D4EDD;
-    color: blanchedalmond;
-}   
-
-.display-1{
-	font-weight: bold;
-	font-size: 35px;
-	margin: 0px 10px;
-  }
-
-  .display-2{
-	font-size: 20px;
-	margin: 0px 10px;
-  }
-
-  
-
-  .container-ico {
-    font-size: 90px;
-    margin: 40 px;
-  }

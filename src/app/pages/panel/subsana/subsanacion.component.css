@@ -1,6 +1,6 @@
 .contenedor-ico {
     font-size: 150px;
-    color: blueviolet;
+    color: #9D4EDD;
 }
 
 .container-ico{
@@ -14,7 +14,7 @@
 }
 
 .color-button{
-    background-color: blueviolet
+    background-color: #9D4EDD
 }
 
 .space-button{
@@ -25,7 +25,31 @@
     margin: 10px 0px;
 }
 
+.btn-primary{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+    margin: 8px 25px;
+   }
 
+.btn-primary:hover{
+    background-color: #7B2CBF;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+   
+
+.btn-primary:active{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}  
+
+.btn.secondary{
+  background-color: gray;
+  color: blanchedalmond;
+  margin: 0px 15px;
+}
 
 .display-1{
 	font-weight: bold;
@@ -47,6 +71,6 @@
 	border: 2px solid transparent;
 	outline: none;
 	border-radius: 1.5rem;
-	background-color: rgb(60, 9, 108, 0.8);
+	background-color: #9D4EDD;
 	letter-spacing: 1px;
 }

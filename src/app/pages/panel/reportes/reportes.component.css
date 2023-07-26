@@ -50,3 +50,29 @@
 	background-color: rgb(60, 9, 108, 0.8);
 	letter-spacing: 1px;
 }
+
+.btn-primary{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+    margin: 8px 25px;
+   }
+
+.btn-primary:hover{
+    background-color: #7B2CBF;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+   
+
+.btn-primary:active{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}  
+
+.btn.secondary{
+  background-color: gray;
+  color: blanchedalmond;
+  margin: 0px 15px;
+}

@@ -34,3 +34,16 @@
 .nav-link.active{
 color: #edae49;
 }
+
+
+
+/**/
+.custom-search {
+    width: 800px; /* Ajusta el ancho según tus necesidades */
+  
+  }
+
+  .form-control {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco transparente */
+    border: none;
+  }

@@ -136,8 +136,8 @@
 </nav>-->
 
 
-<div class="input-group">
-  <input type="text" class="form-control" placeholder="Buscar..." >
+<div class="input-group custom-search">
+  <input type="text" class="form-control" placeholder="Buscar...">
   <div class="input-group-append">
     <button class="btn btn-outline-secondary" type="button">
       <i class="bi bi-search"></i>
@@ -145,5 +145,22 @@
   </div>
 </div>
 
+
+
+<div class="dropdown">
+  <button
+    class="btn btn-secondary dropdown-toggle"
+    type="button"
+    id="dropdownMenuButton"
+    ngbDropdownToggle
+  >
+    Dropdown
+  </button>
+  <div ngbDropdownMenu aria-labelledby="dropdownMenuButton">
+    <button class="dropdown-item">Action 1</button>
+    <button class="dropdown-item">Action 2</button>
+    <button class="dropdown-item">Action 3</button>
+  </div>
+</div>
 
 </header>

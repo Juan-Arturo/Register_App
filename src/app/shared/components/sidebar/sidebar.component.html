@@ -422,6 +422,45 @@
     routerLinkActive="active"
     [routerLinkActiveOptions]="{ exact: true }"
   >
+    <a class="nav-link" [routerLink]="['historial']">
+      <span class="nav-link-icon d-md-none d-lg-inline-block">
+        <i class="bi bi-stopwatch"></i>
+      </span>
+      <span class="nav-link-title">Historial</span>
+    </a>
+  </li>
+
+  <li
+  class="nav-item"
+  routerLinkActive="active"
+  [routerLinkActiveOptions]="{ exact: true }"
+>
+  <a class="nav-link" [routerLink]="['usuarios']">
+    <span class="nav-link-icon d-md-none d-lg-inline-block">
+      <i class="bi bi-people"></i>
+    </span>
+    <span class="nav-link-title">Usuarios</span>
+  </a>
+  </li>
+
+<li
+class="nav-item"
+routerLinkActive="active"
+[routerLinkActiveOptions]="{ exact: true }"
+>
+<a class="nav-link" [routerLink]="['suspender']">
+  <span class="nav-link-icon d-md-none d-lg-inline-block">
+    <i class="bi bi-person-x"></i>
+  </span>
+  <span class="nav-link-title">Suspender</span>
+</a>
+</li>
+
+    <li
+    class="nav-item"
+    routerLinkActive="active"
+    [routerLinkActiveOptions]="{ exact: true }"
+  >
     
 
 

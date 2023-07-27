@@ -6,6 +6,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NotFoundComponent } from './components/not-found/not-found.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { EmptyHeaderComponent } from './components/empty-header/empty-header.component';
 
 @NgModule({
   declarations: [
@@ -13,14 +14,16 @@ import { FooterComponent } from './components/footer/footer.component';
     HeaderComponent,
     SidebarComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    EmptyHeaderComponent
   ],
   exports: [
     ContentComponent,
     HeaderComponent,
     SidebarComponent,
     NotFoundComponent,
-    FooterComponent
+    FooterComponent,
+    EmptyHeaderComponent
   ],
   imports: [
     CommonModule,

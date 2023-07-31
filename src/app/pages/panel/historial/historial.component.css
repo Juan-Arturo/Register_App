@@ -1,0 +1,69 @@
+.display-1{
+	font-weight: bold;
+	font-size: 35px;
+	margin: 0px 10px;
+  }
+
+  .display-2{
+	font-size: 20px;
+	margin: 0px 10px;
+  }
+
+
+.display-3 {
+  font-weight: bold;
+  font-size: 22px;
+  padding: 0px 15px;
+}
+
+.card1{
+    padding: 10px;
+    align: center;
+}
+
+.containerE{
+    margin-left: 35px;
+}
+.containerF{
+    padding-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.containerA{
+    padding-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.containerN{
+    padding-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.containerEs{
+    padding-top: 20px;
+    margin-left: 35px;
+    text-align: center;
+}
+
+.containerB{
+    padding-top: 20px;
+    
+}
+
+.btn-primary{
+    background-color: #9D4EDD;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+    margin: 8px 25px;
+   }
+
+.btn-primary:hover{
+    background-color: #7B2CBF;
+    border-color: #9D4EDD;
+    color: blanchedalmond;
+}   
+
